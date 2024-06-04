@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mesh-smoothing"
+version = "0.1.0"
+description = ""
+authors = ["mroo <53146332+mejhana@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+trimesh = "^4.4.0"
+opencv-python = "^4.10.0.82"
+open3d = "^0.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
